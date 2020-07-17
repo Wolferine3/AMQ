@@ -1,0 +1,10 @@
+// ==UserScript==
+// @name         Database Types
+// @namespace    https://github.com/Wolferine3
+// @version      1.0
+// @description  Database for question types on AMQ trivia
+// @author       Wolferine
+// @match        https://animemusicquiz.com/*
+// ==/UserScript==
+
+const type = [];
