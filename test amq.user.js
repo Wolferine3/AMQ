@@ -8,4 +8,4 @@
 // @grant        none
 // ==/UserScript==
 
-let test = "test23";
+var test = "test23";
