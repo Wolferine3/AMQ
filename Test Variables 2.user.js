@@ -5,7 +5,7 @@
 // @description  Test reading variable
 // @author       Wolferine
 // @match        https://animemusicquiz.com/*
-// @require      https://github.com/Wolferine3/AMQ/blob/master/Test%20variables.user.js
+// @require      https://github.com/Wolferine3/AMQ/raw/master/Test%20variables.user.js
 // ==/UserScript==
 
 let commandListener = new Listener("Game Chat Message", (payload) => {
