@@ -7,7 +7,7 @@
 // @match        https://animemusicquiz.com/*
 // ==/UserScript==
 
-const testallo = ["",
+const wrongAnswersCustom2 = ["",
 "",
 "",
 "",
