@@ -1,4 +1,13 @@
-"",
+// ==UserScript==
+// @name         Database Wrong Answers 2
+// @namespace    https://github.com/Wolferine3
+// @version      1.0
+// @description  Database for second wrong answer on AMQ trivia
+// @author       Wolferine
+// @match        https://animemusicquiz.com/*
+// ==/UserScript==
+
+const wrongAnswersCustom2 = ["",
 "",
 "",
 "",
@@ -121,4 +130,4 @@
 "",
 "",
 "",
-"Because My Toilet Turned Into a Dungeon, Taking Care of My Business Has Become too Difficult"
+"Because My Toilet Turned Into a Dungeon, Taking Care of My Business Has Become too Difficult"];
