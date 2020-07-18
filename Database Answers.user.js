@@ -130,4 +130,4 @@ const answer = ["2",
 "My Love Near Me",
 "all of you",
 "Hello Bang Bang!",
-"I'm Trying to Take Revenge on my Sister for Matching me with her Crazy Friend but she End's up Liking it?!"];
+"I'm Trying to Take Revenge on my Sister for Matching me with her Crazy Friend but she Ends up Liking it?!"];
