@@ -92,7 +92,7 @@ const question = ["In 'Claymore', Priscilla is the most powerful of the Awakened
 "This season of \"Squid Girl\" didn't have ULTRA-PRISM perform its opening.",
 "In \"Gintama\" 's Monkey Hunter arc, 3 out of 5 cast member got transformed into a giant screwdriver, who are the 2 characters that didnt?",
 "How many tentacles does Squid Girl have?",
-"What anime has the characters Kanye West, 50 Cents and Queen Latifa",
+"In episode 65 of \"Dragon Ball\", Colonel Violet uses a plane ressembling a real plane model to escape from the Peck Peck Tribe. It ressembles a P-[number].",
 "How many inserts does \"Assemble Insert\" have?",
 "How many abilities does SaroArsten's favorite character have?",
 "For some stupid reason, this adult visual novel anime adaption aired all of its episodes in reverse order, starting from the end.",
