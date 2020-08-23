@@ -34,20 +34,46 @@ let positionOfSheriff = [];
 
 
 let commandListener = new Listener("Game Chat Message", (payload) => {
+    if (payload.sender === selfName && payload.message.startsWith("/roleList")) {
+        for (let i in information) {
+            sendChatMessage(information[i][1]);
+        }
+    }
+    if (payload.sender === selfName && payload.message.startsWith("/checkRoles")) {
+            sendChatMessage(information[positionOfInvestigator[0][0]][0] + " is investigator");
+            sendChatMessage(information[positionOfSheriff[0][0]][0] + " is sheriff");
+            sendChatMessage(information[positionOfCovenLeader[0][0]][0] + " is Coven Leader");
+            sendChatMessage(information[positionOfMafias[0][0]][0] + " is Mafia 1");
+            sendChatMessage(information[positionOfMafias[1][0]][0] + " is Mafia 2");
+            sendChatMessage(information[positionOfCovenInvestigator[0][0]][0] + " is Coven Investigator");
+            sendChatMessage(information[positionOfJailors[0][0]][0] + " is Jailor 1");
+            sendChatMessage(information[positionOfJailors[1][0]][0] + " is Jailor 2");
+
+    }
+
     if (payload.sender === selfName && payload.message.startsWith("/roles")) {
         players = [];
+        positionOfJailors = [];
+        positionOfInvestigator = [];
+        positionOfCovenInvestigator = [];
+        positionOfCovenLeader = [];
+        positionOfMafias = [];
+        positionOfSheriff = [];
+        positionOfTarget = [];
+        scores = [5, 5, 5, 5, 5, 5, 5, 5];
         for (let playerId in lobby.players) {
             players.push(lobby.players[playerId]._name);
         }
         shuffle(roles);
+        setTimeout(() => {sendChatMessage("Finished distributing roles!");}, 10000);
         setTimeout(function(){ sendDMMessage("Your role is: "+roles[0], players[0]); }, 0);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[1], players[1]); }, 100);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[2], players[2]); }, 200);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[3], players[3]); }, 300);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[4], players[4]); }, 400);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[5], players[5]); }, 500);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[6], players[6]); }, 600);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[7], players[7]); }, 700);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[1], players[1]); }, 1000);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[2], players[2]); }, 2000);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[3], players[3]); }, 3000);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[4], players[4]); }, 4000);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[5], players[5]); }, 5000);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[6], players[6]); }, 6000);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[7], players[7]); }, 7000);
         information = new Array(players.length);
         for (let i = 0; i < players.length; i++){
             information[i]=new Array(2);
