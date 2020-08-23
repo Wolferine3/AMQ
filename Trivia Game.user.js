@@ -186,9 +186,9 @@ let commandListener = new Listener("Game Chat Message", (payload) => {
                     else {
                         let displayListRightPlayers = listRightPlayers.join(", @");
                         let displayCongratMessage = ["Congratulations players @"+displayListRightPlayers+", you get to play the round!"];
-                        let displayCongratMessage1 = displayCongratMessage.splice(0,150);
-                        let displayCongratMessage2 = displayCongratMessage.splice(150,300);
-                        let displayCongratMessage3 = displayCongratMessage.splice(450);
+                        let displayCongratMessage1 = displayCongratMessage.slice(0,150);
+                        let displayCongratMessage2 = displayCongratMessage.slice(150,300);
+                        let displayCongratMessage3 = displayCongratMessage.slice(450);
                         sendChatMessage(displayCongratMessage1);
                         sendChatMessage(displayCongratMessage2);
                         sendChatMessage(displayCongratMessage3);
@@ -256,9 +256,9 @@ let commandListener = new Listener("Game Chat Message", (payload) => {
                     else {
                         let displayListRightPlayers = listRightPlayers.join(", @");
                         let displayCongratMessage = ["Congratulations players @"+displayListRightPlayers+", you get to play the round!"];
-                        let displayCongratMessage1 = displayCongratMessage.splice(0,150);
-                        let displayCongratMessage2 = displayCongratMessage.splice(150,300);
-                        let displayCongratMessage3 = displayCongratMessage.splice(450);
+                        let displayCongratMessage1 = displayCongratMessage.slice(0,150);
+                        let displayCongratMessage2 = displayCongratMessage.slice(150,300);
+                        let displayCongratMessage3 = displayCongratMessage.slice(450);
                         sendChatMessage(displayCongratMessage1);
                         sendChatMessage(displayCongratMessage2);
                         sendChatMessage(displayCongratMessage3);
@@ -325,9 +325,9 @@ let commandListener = new Listener("Game Chat Message", (payload) => {
                     else {
                         let displayListRightPlayers = listRightPlayers.join(", @");
                         let displayCongratMessage = ["Congratulations players @"+displayListRightPlayers+", you get to play the round!"];
-                        let displayCongratMessage1 = displayCongratMessage.splice(0,150);
-                        let displayCongratMessage2 = displayCongratMessage.splice(150,300);
-                        let displayCongratMessage3 = displayCongratMessage.splice(450);
+                        let displayCongratMessage1 = displayCongratMessage.slice(0,150);
+                        let displayCongratMessage2 = displayCongratMessage.slice(150,300);
+                        let displayCongratMessage3 = displayCongratMessage.slice(450);
                         sendChatMessage(displayCongratMessage1);
                         sendChatMessage(displayCongratMessage2);
                         sendChatMessage(displayCongratMessage3);
@@ -387,9 +387,9 @@ let commandListener = new Listener("Game Chat Message", (payload) => {
                     else {
                         let displayListRightPlayers = listRightPlayers.join(", @");
                         let displayCongratMessage = ["Congratulations players @"+displayListRightPlayers+", you get to play the round!"];
-                        let displayCongratMessage1 = displayCongratMessage.splice(0,150);
-                        let displayCongratMessage2 = displayCongratMessage.splice(150,300);
-                        let displayCongratMessage3 = displayCongratMessage.splice(450);
+                        let displayCongratMessage1 = displayCongratMessage.slice(0,150);
+                        let displayCongratMessage2 = displayCongratMessage.slice(150,300);
+                        let displayCongratMessage3 = displayCongratMessage.slice(450);
                         sendChatMessage(displayCongratMessage1);
                         sendChatMessage(displayCongratMessage2);
                         sendChatMessage(displayCongratMessage3);
@@ -449,9 +449,9 @@ let commandListener = new Listener("Game Chat Message", (payload) => {
                     else {
                         let displayListRightPlayers = listRightPlayers.join(", @");
                         let displayCongratMessage = ["Congratulations players @"+displayListRightPlayers+", you get to play the round!"];
-                        let displayCongratMessage1 = displayCongratMessage.splice(0,150);
-                        let displayCongratMessage2 = displayCongratMessage.splice(150,300);
-                        let displayCongratMessage3 = displayCongratMessage.splice(450);
+                        let displayCongratMessage1 = displayCongratMessage.slice(0,150);
+                        let displayCongratMessage2 = displayCongratMessage.slice(150,300);
+                        let displayCongratMessage3 = displayCongratMessage.slice(450);
                         sendChatMessage(displayCongratMessage1);
                         sendChatMessage(displayCongratMessage2);
                         sendChatMessage(displayCongratMessage3);
@@ -511,9 +511,9 @@ let commandListener = new Listener("Game Chat Message", (payload) => {
                     else {
                         let displayListRightPlayers = listRightPlayers.join(", @");
                         let displayCongratMessage = ["Congratulations players @"+displayListRightPlayers+", you get to play the round!"];
-                        let displayCongratMessage1 = displayCongratMessage.splice(0,150);
-                        let displayCongratMessage2 = displayCongratMessage.splice(150,300);
-                        let displayCongratMessage3 = displayCongratMessage.splice(450);
+                        let displayCongratMessage1 = displayCongratMessage.slice(0,150);
+                        let displayCongratMessage2 = displayCongratMessage.slice(150,300);
+                        let displayCongratMessage3 = displayCongratMessage.slice(450);
                         sendChatMessage(displayCongratMessage1);
                         sendChatMessage(displayCongratMessage2);
                         sendChatMessage(displayCongratMessage3);
@@ -570,9 +570,9 @@ let commandListener = new Listener("Game Chat Message", (payload) => {
                     else {
                         let displayListRightPlayers = listRightPlayers.join(", @");
                         let displayCongratMessage = ["Congratulations players @"+displayListRightPlayers+", you get to play the round!"];
-                        let displayCongratMessage1 = displayCongratMessage.splice(0,150);
-                        let displayCongratMessage2 = displayCongratMessage.splice(150,300);
-                        let displayCongratMessage3 = displayCongratMessage.splice(450);
+                        let displayCongratMessage1 = displayCongratMessage.slice(0,150);
+                        let displayCongratMessage2 = displayCongratMessage.slice(150,300);
+                        let displayCongratMessage3 = displayCongratMessage.slice(450);
                         sendChatMessage(displayCongratMessage1);
                         sendChatMessage(displayCongratMessage2);
                         sendChatMessage(displayCongratMessage3);
@@ -636,9 +636,9 @@ let commandListener = new Listener("Game Chat Message", (payload) => {
                     else {
                         let displayListRightPlayers = listRightPlayers.join(", @");
                         let displayCongratMessage = ["Congratulations players @"+displayListRightPlayers+", you get to play the round!"];
-                        let displayCongratMessage1 = displayCongratMessage.splice(0,150);
-                        let displayCongratMessage2 = displayCongratMessage.splice(150,300);
-                        let displayCongratMessage3 = displayCongratMessage.splice(450);
+                        let displayCongratMessage1 = displayCongratMessage.slice(0,150);
+                        let displayCongratMessage2 = displayCongratMessage.slice(150,300);
+                        let displayCongratMessage3 = displayCongratMessage.slice(450);
                         sendChatMessage(displayCongratMessage1);
                         sendChatMessage(displayCongratMessage2);
                         sendChatMessage(displayCongratMessage3);
@@ -691,9 +691,9 @@ let commandListener = new Listener("Game Chat Message", (payload) => {
                     else {
                         let displayListRightPlayers = listRightPlayers.join(", @");
                         let displayCongratMessage = ["Congratulations players @"+displayListRightPlayers+", you get to play the round!"];
-                        let displayCongratMessage1 = displayCongratMessage.splice(0,150);
-                        let displayCongratMessage2 = displayCongratMessage.splice(150,300);
-                        let displayCongratMessage3 = displayCongratMessage.splice(450);
+                        let displayCongratMessage1 = displayCongratMessage.slice(0,150);
+                        let displayCongratMessage2 = displayCongratMessage.slice(150,300);
+                        let displayCongratMessage3 = displayCongratMessage.slice(450);
                         sendChatMessage(displayCongratMessage1);
                         sendChatMessage(displayCongratMessage2);
                         sendChatMessage(displayCongratMessage3);
