@@ -6,15 +6,15 @@
 // @author       Wolferine
 // @match        https://animemusicquiz.com/*
 // @grant        none
-// @require      https://github.com/Wolferine3/AMQ/raw/master/Database%20animeEntries.user.js
-// @require      https://github.com/Wolferine3/AMQ/raw/master/Database%20artists.user.js
-// @require      https://github.com/Wolferine3/AMQ/raw/master/Database%20songNames.user.js
-// @require      https://github.com/Wolferine3/AMQ/raw/master/Database%20Questions.user.js
-// @require      https://github.com/Wolferine3/AMQ/raw/master/Database%20Answers.user.js
-// @require      https://github.com/Wolferine3/AMQ/raw/master/Database%20Types.user.js
-// @require      https://github.com/Wolferine3/AMQ/raw/master/Database%20Wrong%20Answers%201.user.js
-// @require      https://github.com/Wolferine3/AMQ/raw/master/Database%20Wrong%20Answers%202.user.js
-// @require      https://github.com/Wolferine3/AMQ/raw/master/Database%20Wrong%20Answers%203.user.js
+// @require      https://github.com/Wolferine3/AMQ/raw/master/Databases/animeEntries.user.js
+// @require      https://github.com/Wolferine3/AMQ/raw/master/Databases/artists.user.js
+// @require      https://github.com/Wolferine3/AMQ/raw/master/Databases/songNames.user.js
+// @require      https://github.com/Wolferine3/AMQ/raw/master/Databases/Questions.user.js
+// @require      https://github.com/Wolferine3/AMQ/raw/master/Databases/Answers.user.js
+// @require      https://github.com/Wolferine3/AMQ/raw/master/Databases/Types.user.js
+// @require      https://github.com/Wolferine3/AMQ/raw/master/Databases/Wrong%20Answers%201.user.js
+// @require      https://github.com/Wolferine3/AMQ/raw/master/Databases/Wrong%20Answers%202.user.js
+// @require      https://github.com/Wolferine3/AMQ/raw/master/Databases/Wrong%20Answers%203.user.js
 // ==/UserScript==
 
 if (!window.setupDocumentDone) return;
