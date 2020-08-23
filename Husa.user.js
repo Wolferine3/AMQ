@@ -6,9 +6,9 @@
 // @author       Wolferine
 // @match        https://animemusicquiz.com/*
 // @grant        none
-// @require      https://github.com/Wolferine3/AMQ/raw/master/Database%20animeEntries.user.js
-// @require      https://github.com/Wolferine3/AMQ/raw/master/Database%20artists.user.js
-// @require      https://github.com/Wolferine3/AMQ/raw/master/Database%20songNames.user.js
+// @require      https://github.com/Wolferine3/AMQ/raw/master/Databases/animeEntries.user.js
+// @require      https://github.com/Wolferine3/AMQ/raw/master/Databases/artists.user.js
+// @require      https://github.com/Wolferine3/AMQ/raw/master/Databases/songNames.user.js
 // ==/UserScript==
 
 var allAnimeSongDetailsList
