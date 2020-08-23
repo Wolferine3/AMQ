@@ -52,13 +52,13 @@ let commandListener = new Listener("Game Chat Message", (payload) => {
         }
         shuffle(roles);
         setTimeout(function(){ sendDMMessage("Your role is: "+roles[0], players[0]); }, 0);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[1], players[1]); }, 200);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[2], players[2]); }, 400);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[3], players[3]); }, 600);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[4], players[4]); }, 800);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[5], players[5]); }, 1000);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[6], players[6]); }, 1200);
-        setTimeout(function(){ sendDMMessage("Your role is: "+roles[7], players[7]); }, 1400);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[1], players[1]); }, 1000);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[2], players[2]); }, 2000);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[3], players[3]); }, 3000);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[4], players[4]); }, 4000);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[5], players[5]); }, 5000);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[6], players[6]); }, 6000);
+        setTimeout(function(){ sendDMMessage("Your role is: "+roles[7], players[7]); }, 7000);
         information = new Array(players.length);
         for (let i = 0; i < players.length; i++){
             information[i]=new Array(3);
