@@ -279,6 +279,7 @@ let resultListener = new Listener("answer results", function (result) {
     //That's bullshit for me so I'm removing all undefined entries
     //So if I'm 3rd in the lobby that plays the actual game, my entry is now at quiz.scoreboard.playerEntries[2]
     //The player push at the beginning is also doing the same thing as ^ so it works out
+    
     //let scoresRaw = quiz.scoreboard.playerEntries;
     //let scoresCleaned = scoresRaw.filter(function (el) {
     //    return el != null;
