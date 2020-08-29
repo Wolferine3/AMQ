@@ -214,10 +214,10 @@ let dmListener = new Listener("chat message", function (payload) {
                 for (let i = 0; i < information.length; i++) {
                     let indexOfTarget = information[i].indexOf(target);
                     if (indexOfTarget > -1) {
-                        positionOfTarget.push([i, indexOfTarget]);
+                        positionOfTarget.push([i]);
                     }
                 }
-                if (information[positionOfTarget[0][0]][1] === "Mafia") {
+                if (information[positionOfTarget[0]][1] === "Mafia") {
                     sendDMMessage("Target is a Mafia member.", payload.sender);
                 }
                 else {
