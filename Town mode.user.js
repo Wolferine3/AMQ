@@ -5,6 +5,7 @@
 // @description  Automated version of Town mode
 // @author       Wolferine
 // @match        https://animemusicquiz.com/*
+// @updateURL    https://github.com/Wolferine3/AMQ/raw/master/Town%20mode.user.js
 // @grant        none
 // ==/UserScript==
 
