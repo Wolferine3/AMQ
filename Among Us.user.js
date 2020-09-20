@@ -232,13 +232,15 @@ function votePhaseOver() {
 
                 let indexOfVotedPlayer = impostors.indexOf(playerVoted);
                 impostors.splice(indexOfVotedPlayer, 1);
+                
+                sendChatMessage("There are "+ impostors.length + "impostors left.");
 
                 if (impostors.length == 0){
                     sendChatMessage("All impostors have been killed. The crewmates have won!");
                 }
             }
-            if (crewmates.includes(playersBeenVoted[indexOfMax[0]])) {
-                sendChatMessage("@"+playersBeenVoted[indexOfMax[0]] + " was not an Impostor.");
+            if (crewmates.includes(playerVoted)) {
+                sendChatMessage("@"+ playerVoted + " was not an Impostor.");
                 sendChatMessage("Please go to spec immediately.");
                 setTimeout(function() {socket.sendCommand({
                     type: "quiz",
@@ -247,6 +249,8 @@ function votePhaseOver() {
 
                 let indexOfVotedPlayer = crewmates.indexOf(playerVoted);
                 crewmates.splice(indexOfVotedPlayer, 1);
+                
+                sendChatMessage("There are "+ impostors.length + "impostors left.");
 
                 if (crewmates.length <= impostors.length){
                     sendChatMessage("Game Over, impostors have won.");
