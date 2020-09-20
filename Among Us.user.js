@@ -151,7 +151,7 @@ let dmListener = new Listener("chat message", function (payload) {
             setTimeout(function() {sendDMMessage("You have killed " + deadmate + ".", payload.sender)}, 0);
             setTimeout(function() {sendDMMessage("You have been killed by " + payload.sender + ".", deadmate)}, 1000);
             setTimeout(function() {sendDMMessage("Please go to spec at the beginning of song " + (parseInt($("#qpCurrentSongCount").text())+1).toString(), deadmate)}, 2000);
-            crewmates.splice(randomCrewmate, randomCrewmate+1);
+            crewmates.splice(randomCrewmate, 1);
             if (crewmates.length <= impostors.length){
                 sendChatMessage("Game Over, impostors have won.");
             }
@@ -231,7 +231,7 @@ function votePhaseOver() {
                 })}, 3000);
 
                 let indexOfVotedPlayer = impostors.indexOf(playerVoted);
-                impostors.splice(indexOfVotedPlayer, indexOfVotedPlayer + 1);
+                impostors.splice(indexOfVotedPlayer, 1);
 
                 if (impostors.length == 0){
                     sendChatMessage("All impostors have been killed. The crewmates have won!");
@@ -246,7 +246,7 @@ function votePhaseOver() {
                 })}, 3000);
 
                 let indexOfVotedPlayer = crewmates.indexOf(playerVoted);
-                crewmates.splice(indexOfVotedPlayer, indexOfVotedPlayer + 1);
+                crewmates.splice(indexOfVotedPlayer, 1);
 
                 if (crewmates.length <= impostors.length){
                     sendChatMessage("Game Over, impostors have won.");
