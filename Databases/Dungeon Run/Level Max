@@ -1,0 +1,9 @@
+// ==UserScript==
+// @name         Database Level Max Monsters
+// @namespace    https://github.com/Wolferine3
+// @version      1.0
+// @description  Database maximum level for monsters on AMQ Dungeon Run
+// @author       Wolferine
+// @match        https://animemusicquiz.com/*
+// ==/UserScript==
+
