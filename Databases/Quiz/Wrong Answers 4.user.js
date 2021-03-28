@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Database Wrong Answers 3
+// @name         Database Wrong Answers 4
 // @namespace    https://github.com/Wolferine3
 // @version      1.0
-// @description  Database for third wrong answer on AMQ trivia
+// @description  Database for fourth wrong answer on AMQ trivia
 // @author       Wolferine
 // @match        https://animemusicquiz.com/*
 // ==/UserScript==
